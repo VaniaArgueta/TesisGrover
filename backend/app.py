@@ -3,6 +3,7 @@ from app import create_app
 
 app = create_app()
 
+
 @app.route('/', methods=['GET'])
 def home():
     return "API Tesis Grover - OK", 200
